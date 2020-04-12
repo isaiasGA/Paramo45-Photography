@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+.top-content {
+  background: url(./components/home-components/images/main.jpg) ;
+}
+
+/* SOCIAL MEDIA SECTION */
+.social-container {
+  background-color: beige;
+  padding: 3% 5%;
+  
+}
+
+.sc {
+  padding: 0 5%;
+  transition:transform 400ms; /* Transition is used to determine a change within the icons. In this case, we want the icons to move up when we hover over them
+   - transform will determine HOW FAST will the icon move UP in MILLISECONDS */
+  display: inline-block; /* We are setting it up to INLINE BLOCK in order to allow "translate" property to woek on inline elements
+    - By default, "translate property on line 62 does not work on inline elements"
+  */
+}
+
+/* This will create a hover effect when we scroll the mouse over the SM icon 
+  "translateY(-2px)" will send the icon UP when we hover over it
+*/
+.sc:hover {
+  transform: translateY(10px);
+}
+
+.instagram {
+  color: black;
+}
+.twitter {
+  color: #49a1eb;
+}
+.youtube {
+  color: #eb3223;
+}
