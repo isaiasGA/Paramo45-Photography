@@ -52,7 +52,7 @@ img {
 }
 
 .title{
-  padding: 11% 0 0 16%;
+  padding: 12% 0 0 33%;
 }
 
 .para {
@@ -88,11 +88,7 @@ img {
 
 .photo-sections{
   display: flex;
-  margin: 8% 11% 8% 10%;
-}
-
-.photo-sections div {
-  margin-right: 2%;
+  margin: 12% 6% 13%;
 }
 
 .photo-sections div h2 {
@@ -102,8 +98,9 @@ img {
   padding-bottom: 3%;
 }
 
-.urban {
-  width: 309%;
+.urban img {
+  width: 83%;
+  height: 78%;
 }
 
 /* SOCIAL MEDIA SECTION */
