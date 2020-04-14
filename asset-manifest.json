@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Paramo45-Photography/static/css/main.4788349b.chunk.css",
+    "main.js": "/Paramo45-Photography/static/js/main.c4aaa2c7.chunk.js",
+    "main.js.map": "/Paramo45-Photography/static/js/main.c4aaa2c7.chunk.js.map",
+    "runtime-main.js": "/Paramo45-Photography/static/js/runtime-main.6791faca.js",
+    "runtime-main.js.map": "/Paramo45-Photography/static/js/runtime-main.6791faca.js.map",
+    "static/js/2.17c78bc3.chunk.js": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js",
+    "static/js/2.17c78bc3.chunk.js.map": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js.map",
+    "index.html": "/Paramo45-Photography/index.html",
+    "precache-manifest.04ffc2dd40b864045fddc01a1009044f.js": "/Paramo45-Photography/precache-manifest.04ffc2dd40b864045fddc01a1009044f.js",
+    "service-worker.js": "/Paramo45-Photography/service-worker.js",
+    "static/css/main.4788349b.chunk.css.map": "/Paramo45-Photography/static/css/main.4788349b.chunk.css.map",
+    "static/js/2.17c78bc3.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js.LICENSE.txt",
+    "static/media/logo.jpg": "/Paramo45-Photography/static/media/logo.e102fac6.jpg",
+    "static/media/App.css": "/Paramo45-Photography/static/media/main.039a665d.jpg",
+    "static/media/nature.jpg": "/Paramo45-Photography/static/media/nature.de86f902.jpg",
+    "static/media/urban.jpg": "/Paramo45-Photography/static/media/urban.acf7809c.jpg",
+    "static/media/world.jpg": "/Paramo45-Photography/static/media/world.623751bc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6791faca.js",
+    "static/js/2.17c78bc3.chunk.js",
+    "static/css/main.4788349b.chunk.css",
+    "static/js/main.c4aaa2c7.chunk.js"
+  ]
+}
