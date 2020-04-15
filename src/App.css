@@ -139,3 +139,20 @@ img {
 .youtube {
   color: #eb3223;
 }
+
+
+
+/* GALLERY PAGE */
+
+.images-container {
+    display: flex;
+    padding: 1.5%;
+    background: white;
+}
+
+.photo-card {
+  padding-right: .5%;
+  margin-top: 10%;
+  width: 88%;
+}
+
