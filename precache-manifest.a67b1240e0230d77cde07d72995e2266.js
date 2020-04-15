@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "263b67c6a55443d2181883aa5c69505c",
+    "revision": "a1d83e1e2f86e113974feaa2ab6cb94a",
     "url": "/Paramo45-Photography/index.html"
   },
   {
-    "revision": "fb1e2d365dc10ed9f1ba",
-    "url": "/Paramo45-Photography/static/css/main.4788349b.chunk.css"
+    "revision": "cc5d4742eeae7e26a38d",
+    "url": "/Paramo45-Photography/static/css/main.a0a3edfc.chunk.css"
   },
   {
     "revision": "2a1f00dc6d5eb6d9ac70",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb1e2d365dc10ed9f1ba",
-    "url": "/Paramo45-Photography/static/js/main.c4aaa2c7.chunk.js"
+    "revision": "cc5d4742eeae7e26a38d",
+    "url": "/Paramo45-Photography/static/js/main.d7269040.chunk.js"
   },
   {
     "revision": "8e39d5b7307cccc6417f",
