@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Paramo45-Photography/precache-manifest.a67b1240e0230d77cde07d72995e2266.js"
+  "/Paramo45-Photography/precache-manifest.a0845421656d0b60cdcffcf0c227562a.js"
 );
 
 self.addEventListener('message', (event) => {

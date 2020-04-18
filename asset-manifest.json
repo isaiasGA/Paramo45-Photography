@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Paramo45-Photography/static/css/main.a0a3edfc.chunk.css",
-    "main.js": "/Paramo45-Photography/static/js/main.d7269040.chunk.js",
-    "main.js.map": "/Paramo45-Photography/static/js/main.d7269040.chunk.js.map",
+    "main.css": "/Paramo45-Photography/static/css/main.49b71f0a.chunk.css",
+    "main.js": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js",
+    "main.js.map": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js.map",
     "runtime-main.js": "/Paramo45-Photography/static/js/runtime-main.6791faca.js",
     "runtime-main.js.map": "/Paramo45-Photography/static/js/runtime-main.6791faca.js.map",
-    "static/js/2.17c78bc3.chunk.js": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js",
-    "static/js/2.17c78bc3.chunk.js.map": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js.map",
+    "static/js/2.52c831ab.chunk.js": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js",
+    "static/js/2.52c831ab.chunk.js.map": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.map",
     "index.html": "/Paramo45-Photography/index.html",
-    "precache-manifest.a67b1240e0230d77cde07d72995e2266.js": "/Paramo45-Photography/precache-manifest.a67b1240e0230d77cde07d72995e2266.js",
+    "precache-manifest.a0845421656d0b60cdcffcf0c227562a.js": "/Paramo45-Photography/precache-manifest.a0845421656d0b60cdcffcf0c227562a.js",
     "service-worker.js": "/Paramo45-Photography/service-worker.js",
-    "static/css/main.a0a3edfc.chunk.css.map": "/Paramo45-Photography/static/css/main.a0a3edfc.chunk.css.map",
-    "static/js/2.17c78bc3.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.17c78bc3.chunk.js.LICENSE.txt",
+    "static/css/main.49b71f0a.chunk.css.map": "/Paramo45-Photography/static/css/main.49b71f0a.chunk.css.map",
+    "static/js/2.52c831ab.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/Paramo45-Photography/static/media/logo.e102fac6.jpg",
     "static/media/App.css": "/Paramo45-Photography/static/media/main.039a665d.jpg",
     "static/media/nature.jpg": "/Paramo45-Photography/static/media/nature.de86f902.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6791faca.js",
-    "static/js/2.17c78bc3.chunk.js",
-    "static/css/main.a0a3edfc.chunk.css",
-    "static/js/main.d7269040.chunk.js"
+    "static/js/2.52c831ab.chunk.js",
+    "static/css/main.49b71f0a.chunk.css",
+    "static/js/main.1b3a916d.chunk.js"
   ]
 }
