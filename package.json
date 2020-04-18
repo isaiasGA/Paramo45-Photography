@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "fslightbox-react": "^1.4.9",
     "gh-pages": "^2.2.0"
   }
 }

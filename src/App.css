@@ -144,15 +144,23 @@ img {
 
 /* GALLERY PAGE */
 
-.images-container {
+.gallery-container {
     display: flex;
-    padding: 1.5%;
-    background: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 508rem;
+    background-color: white;
 }
 
-.photo-card {
+.gallery-container img {
+  width: 33%;
+  height: 36rem;
+  padding-bottom: .5%;
   padding-right: .5%;
-  margin-top: 10%;
-  width: 88%;
+}
+
+.lab {
+  width: 25%;
 }
 

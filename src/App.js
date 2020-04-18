@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Route, Link, Switch} from 'react-router-dom';
 
 import {Nav, NavLinks,LogoContainer, ImgLogo} from './components/NavStyles';
@@ -6,13 +6,10 @@ import {Nav, NavLinks,LogoContainer, ImgLogo} from './components/NavStyles';
 import './App.css';
 import Home from './components/Home/Home';
 import Gallery from './components/Gallery/Gallery';
-import logoImg from './components/images/logo.jpg';
 import photos from './components/GalleryData';
-
+import logoImg from './components/images/logo.jpg';
 
 function App() {
-  const [photo] = useState(photos)
-
   return (
     <div className="App">
      <Nav>
@@ -29,8 +26,9 @@ function App() {
 
 	  <Switch>
     <Route path='/gallery'>
-      <Gallery images={photo} />
+        <Gallery photos={photos}/>
     </Route> 
+
     <Route path='/' component={Home} /> 
 	  </Switch>
     </div>

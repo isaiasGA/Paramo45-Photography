@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Photos from './Photos';
 
-function Gallery(props){
-    return(
+function Gallery(props) {
+  return(
         <div className='gallery-container'>
-          <div className='images-container'>
-               {props.images.map(image => (
-                  <div className='photo-card' key={image.id}>
-                    <img className='img' src={image.imageUrl}/>  
-					        </div>
-                ))}              
-          </div>
+         {props.photos.map(photo => (
+           <Photos 
+            image={photo}
+           />
+         ))}
         </div>
     )
 };
+    
 
 
 export default Gallery;
