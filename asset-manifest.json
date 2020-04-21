@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Paramo45-Photography/static/css/main.49b71f0a.chunk.css",
+    "main.css": "/Paramo45-Photography/static/css/main.f1e6b3b5.chunk.css",
     "main.js": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js",
     "main.js.map": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js.map",
     "runtime-main.js": "/Paramo45-Photography/static/js/runtime-main.6791faca.js",
@@ -8,9 +8,9 @@
     "static/js/2.52c831ab.chunk.js": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js",
     "static/js/2.52c831ab.chunk.js.map": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.map",
     "index.html": "/Paramo45-Photography/index.html",
-    "precache-manifest.a0845421656d0b60cdcffcf0c227562a.js": "/Paramo45-Photography/precache-manifest.a0845421656d0b60cdcffcf0c227562a.js",
+    "precache-manifest.8c7ef8e3863cc90f14cd2ab469dbb490.js": "/Paramo45-Photography/precache-manifest.8c7ef8e3863cc90f14cd2ab469dbb490.js",
     "service-worker.js": "/Paramo45-Photography/service-worker.js",
-    "static/css/main.49b71f0a.chunk.css.map": "/Paramo45-Photography/static/css/main.49b71f0a.chunk.css.map",
+    "static/css/main.f1e6b3b5.chunk.css.map": "/Paramo45-Photography/static/css/main.f1e6b3b5.chunk.css.map",
     "static/js/2.52c831ab.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/Paramo45-Photography/static/media/logo.e102fac6.jpg",
     "static/media/App.css": "/Paramo45-Photography/static/media/main.039a665d.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.6791faca.js",
     "static/js/2.52c831ab.chunk.js",
-    "static/css/main.49b71f0a.chunk.css",
+    "static/css/main.f1e6b3b5.chunk.css",
     "static/js/main.1b3a916d.chunk.js"
   ]
 }
