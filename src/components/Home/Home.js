@@ -1,12 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import SocialMedia from './SocialMedia';
 import {
    Button
-} from './styles/HomeStyles';
+} from '../styles/HomeStyles';
 
 import natureImg from '../images/nature.jpg';
-import urbanImg from '../images/urban.jpg';
+import portraitImg from '../images/baby.jpg';
 import worldImg from '../images/world.jpg';
 
 function Home() {
@@ -23,18 +24,26 @@ function Home() {
                <Button>About Me</Button>
          </section>
          <section className='photo-sections'>
-            <div className='nature'>
-               <h2>Nature</h2>
-               <img src={natureImg} alt='river with rocks'/>
+            <Link to ='/nature'>
+              <div className='nature'>
+                  <h2>Nature</h2>
+                  <img src={natureImg} alt='river with rocks'/>
+               </div>
+            </Link>
+           
+           <Link to='/portrait'>
+             <div className='portrait'>
+               <h2>Portrait</h2>
+               <img src={portraitImg} alt='a baby'/>
             </div>
-            <div className='urban'>
-               <h2>Urban</h2>
-               <img src={urbanImg} alt='church tower'/>
-            </div>
-            <div className='world'>
+           </Link>
+
+            <Link to='/world-around-me'>
+              <div className='world'>
                <h2>World Around Me</h2>
                <img src={worldImg} alt=' chinese ornament'/>
             </div>
+            </Link>
          </section>
          <SocialMedia />
         </div>

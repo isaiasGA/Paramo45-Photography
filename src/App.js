@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import {Route, Link, Switch} from 'react-router-dom';
 
-import {Nav, NavLinks,LogoContainer, ImgLogo} from './components/NavStyles';
-
+import {Nav, NavLinks,LogoContainer, ImgLogo} from './components/styles/NavStyles';
 import './App.css';
+
 import Home from './components/Home/Home';
-import Gallery from './components/Gallery/Gallery';
-import photos from './components/GalleryData';
+import Gallery from './components/Gallery';
+import Nature from './components/Home/Nature';
+import Portrait from './components/Home/Portrait';
+import World from './components/Home/World';
+
+import photos from './/components/GalleryData';
 import logoImg from './components/images/logo.jpg';
+import Newsletter from './components/Newsletter';
 
 function App() {
+  const [galleryData] = useState(photos);
+
   return (
     <div className="App">
      <Nav>
@@ -20,16 +27,41 @@ function App() {
          <Link classname='home-lnk'to ='/'>Home</Link>
          <Link to ='/gallery'>Gallery</Link>
          <Link to ='/'>Contact</Link>
-         <Link to ='/'>Newsletter</Link>
+         <Link to ='/newsletter'>Newsletter</Link>
 		</NavLinks>
      </Nav>
 
 	  <Switch>
-    <Route path='/gallery'>
-        <Gallery photos={photos}/>
-    </Route> 
 
-    <Route path='/' component={Home} /> 
+    <Route path='/world-around-me'>
+      {galleryData.map(world => (
+        <World world={world} />
+      ))}
+    </Route>
+
+    <Route path='/portrait'>
+      {galleryData.map(portrait => (
+        <Portrait portrait={portrait} />
+      ))}
+    </Route>
+
+     <Route path='/nature'>
+        {galleryData.map(nature => (
+          <Nature nature={nature}/>
+        ))}
+      </Route>
+
+      <Route path='/gallery'>
+        {galleryData.map(gallery => (
+          <Gallery  gallery={gallery}/>
+        ))}
+      </Route> 
+
+      <Route path='/newsletter'>
+        <Newsletter />
+      </Route> 
+
+      <Route path='/' component={Home} /> 
 	  </Switch>
     </div>
   );
