@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import Nature from './components/Home/Nature';
 import Portrait from './components/Home/Portrait';
 import World from './components/Home/World';
+import About from './components/About';
 
 import photos from './/components/GalleryData';
 import logoImg from './components/images/logo.jpg';
@@ -26,7 +27,6 @@ function App() {
 		 <NavLinks className='nav-links'>
          <Link classname='home-lnk'to ='/'>Home</Link>
          <Link to ='/gallery'>Gallery</Link>
-         <Link to ='/'>Contact</Link>
          <Link to ='/newsletter'>Newsletter</Link>
 		</NavLinks>
      </Nav>
@@ -57,9 +57,9 @@ function App() {
         ))}
       </Route> 
 
-      <Route path='/newsletter'>
-        <Newsletter />
-      </Route> 
+      <Route path='/about' component={About}/>
+
+      <Route path='/newsletter' component={Newsletter}/> 
 
       <Route path='/' component={Home} /> 
 	  </Switch>

@@ -19,10 +19,13 @@ function Home() {
                <h1 className='photo'>Photography</h1>
              </div>
             </div>
-            <section className='about'>
-               <p>“Souls cross ages like clouds cross skies, an' tho' a cloud's shape nor hue nor size don't stay the same, it's still a cloud an' so is a soul.” - David Mitchell, Cloud Atlas</p>
-               <Button>About Me</Button>
-         </section>
+            <Link to='/about'>
+             <section className='about'>
+              <p>“Souls cross ages like clouds cross skies, an' tho' a cloud's shape nor hue nor size don't stay the same, it's still a cloud an' so is a soul.” - David Mitchell, Cloud Atlas</p>
+              <Button>About Me</Button>
+            </section>
+            </Link>
+           
          <section className='photo-sections'>
             <Link to ='/nature'>
               <div className='nature'>

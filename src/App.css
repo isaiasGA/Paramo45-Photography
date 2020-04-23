@@ -151,7 +151,7 @@ img {
 
 
  .images img{
-  width: 30%;
+  width: 31%;
   height: 34rem;
   padding-bottom: .5%;
   padding-right: .5%;
@@ -187,7 +187,7 @@ img {
 /* NEWSLETTER SECTION  */
 
 .newsletter-container {
-  padding: 10.7%;
+  padding: 10.4%;
 }
 .newsletter-title h1 {
     font-size: 5rem;
@@ -223,10 +223,11 @@ input {
 }
 
 button {
-    background: #DCC4A9;
-    border: 1px solid #A48B74;
-    padding: 3% 19%;
-    font-size: 2rem;
+  background: #DCC4A9;
+  border: 1px solid #A48B74;
+  padding: .5% 6%;
+  font-size: 2rem;
+  font-weight: bold;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.12), 0 2px 2px 1px rgba(0, 0, 0, 0.24);
 }
 button:hover {
@@ -239,6 +240,37 @@ button:active {
           box-shadow: inset 0px 0px 5px #A48B74;
    outline: none;
 }
+
+.error {
+    font-size: 1.5rem;
+    color: red;
+    padding-bottom: 8%;
+}
+
+
+/* ABOUT ME */
+
+.about-container {
+  padding: 4.7%;
+}
+.about-container h1{
+    padding: 3% 0;
+    font-size: 3rem;
+}
+.message img {
+    width: 19.4%;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+.message h2 {
+  font-size: 3rem;
+}
+.message p {
+    font-size: 2rem;
+    padding-top: 2%;
+}
+
+
 
 
 
