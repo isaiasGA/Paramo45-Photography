@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Paramo45-Photography/static/css/main.f1e6b3b5.chunk.css",
-    "main.js": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js",
-    "main.js.map": "/Paramo45-Photography/static/js/main.1b3a916d.chunk.js.map",
+    "main.css": "/Paramo45-Photography/static/css/main.6c5ee8b3.chunk.css",
+    "main.js": "/Paramo45-Photography/static/js/main.fd34514e.chunk.js",
+    "main.js.map": "/Paramo45-Photography/static/js/main.fd34514e.chunk.js.map",
     "runtime-main.js": "/Paramo45-Photography/static/js/runtime-main.6791faca.js",
     "runtime-main.js.map": "/Paramo45-Photography/static/js/runtime-main.6791faca.js.map",
-    "static/js/2.52c831ab.chunk.js": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js",
-    "static/js/2.52c831ab.chunk.js.map": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.map",
+    "static/js/2.eb68cef1.chunk.js": "/Paramo45-Photography/static/js/2.eb68cef1.chunk.js",
+    "static/js/2.eb68cef1.chunk.js.map": "/Paramo45-Photography/static/js/2.eb68cef1.chunk.js.map",
     "index.html": "/Paramo45-Photography/index.html",
-    "precache-manifest.8c7ef8e3863cc90f14cd2ab469dbb490.js": "/Paramo45-Photography/precache-manifest.8c7ef8e3863cc90f14cd2ab469dbb490.js",
+    "precache-manifest.403a7055b04c5a53307bf07f21b46d72.js": "/Paramo45-Photography/precache-manifest.403a7055b04c5a53307bf07f21b46d72.js",
     "service-worker.js": "/Paramo45-Photography/service-worker.js",
-    "static/css/main.f1e6b3b5.chunk.css.map": "/Paramo45-Photography/static/css/main.f1e6b3b5.chunk.css.map",
-    "static/js/2.52c831ab.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.52c831ab.chunk.js.LICENSE.txt",
+    "static/css/main.6c5ee8b3.chunk.css.map": "/Paramo45-Photography/static/css/main.6c5ee8b3.chunk.css.map",
+    "static/js/2.eb68cef1.chunk.js.LICENSE.txt": "/Paramo45-Photography/static/js/2.eb68cef1.chunk.js.LICENSE.txt",
+    "static/media/baby.jpg": "/Paramo45-Photography/static/media/baby.70994ea9.jpg",
     "static/media/logo.jpg": "/Paramo45-Photography/static/media/logo.e102fac6.jpg",
     "static/media/App.css": "/Paramo45-Photography/static/media/main.039a665d.jpg",
     "static/media/nature.jpg": "/Paramo45-Photography/static/media/nature.de86f902.jpg",
-    "static/media/urban.jpg": "/Paramo45-Photography/static/media/urban.acf7809c.jpg",
+    "static/media/selfie.jpg": "/Paramo45-Photography/static/media/selfie.2df0e4d0.jpg",
     "static/media/world.jpg": "/Paramo45-Photography/static/media/world.623751bc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6791faca.js",
-    "static/js/2.52c831ab.chunk.js",
-    "static/css/main.f1e6b3b5.chunk.css",
-    "static/js/main.1b3a916d.chunk.js"
+    "static/js/2.eb68cef1.chunk.js",
+    "static/css/main.6c5ee8b3.chunk.css",
+    "static/js/main.fd34514e.chunk.js"
   ]
 }
