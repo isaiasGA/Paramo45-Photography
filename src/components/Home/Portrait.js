@@ -14,17 +14,17 @@ const showCase = (slide) => {
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center',   alignContent: 'center',
 		  height: '103rem',
 		  backgroundColor: 'white',}}>
-			  <h1 className='nature-title'>Portrait</h1>
+			  <h1 className='portrait-title'>Portrait</h1>
 			  <div className='images'>
-			    <img onClick={() => showCase(1)} src={props.portrait.imgPor1}
+			    <img onClick={() => showCase(1)} src={props.portrait.imgPor1} alt=''
 				 />
-				 <img onClick={() => showCase(2)} src={props.portrait.imgPor2}
+				 <img onClick={() => showCase(2)} src={props.portrait.imgPor2} alt=''
 				 />
-				 <img onClick={() => showCase(3)} src={props.portrait.imgPor3}
+				 <img onClick={() => showCase(3)} src={props.portrait.imgPor3} alt=''
 				 />
-				 <img onClick={() => showCase(4)} src={props.portrait.imgPor4}
+				 <img onClick={() => showCase(4)} src={props.portrait.imgPor4} alt=''
 				 />
-				 <img onClick={() => showCase(5)} src={props.portrait.imgPor5}
+				 <img onClick={() => showCase(5)} src={props.portrait.imgPor5} alt=''
 				 />
 			  </div>
 

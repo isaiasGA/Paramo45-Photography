@@ -25,7 +25,7 @@ function App() {
          <ImgLogo src={logoImg} alt='camera sticker on snow'/>
        </LogoContainer>
 		 <NavLinks className='nav-links'>
-         <Link classname='home-lnk'to ='/'>Home</Link>
+         <Link className='home-lnk'to ='/'>Home</Link>
          <Link to ='/gallery'>Gallery</Link>
          <Link to ='/newsletter'>Newsletter</Link>
 		</NavLinks>
@@ -34,26 +34,26 @@ function App() {
 	  <Switch>
 
     <Route path='/world-around-me'>
-      {galleryData.map(world => (
-        <World world={world} />
+      {galleryData.map(world => ( 
+        <World key={world} world={world} />
       ))}
     </Route>
 
     <Route path='/portrait'>
       {galleryData.map(portrait => (
-        <Portrait portrait={portrait} />
+        <Portrait key={portrait} portrait={portrait} />
       ))}
     </Route>
 
      <Route path='/nature'>
         {galleryData.map(nature => (
-          <Nature nature={nature}/>
+          <Nature key={nature} nature={nature} />
         ))}
       </Route>
 
       <Route path='/gallery'>
         {galleryData.map(gallery => (
-          <Gallery  gallery={gallery}/>
+          <Gallery key={gallery} gallery={gallery} />
         ))}
       </Route> 
 
